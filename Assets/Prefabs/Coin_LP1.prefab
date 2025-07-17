@@ -148,7 +148,7 @@ MonoBehaviour:
   _appearAnimationName: CoinAppear
   _disappearAnimationName: CoinDisapear
   _animator: {fileID: 282761494105162931}
-  _timeToDisappear: 20
+  _timeToDisappear: 2
   _onCoinCollected:
     m_PersistentCalls:
       m_Calls: []
