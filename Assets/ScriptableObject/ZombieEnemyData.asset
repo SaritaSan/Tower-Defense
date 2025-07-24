@@ -17,7 +17,9 @@ MonoBehaviour:
   runSpeed: 10
   attackDuration: 1
   attackCooldown: 1
+  attackSoundName: ZombieGolpe
   primaryTargetTag: Tower
-  runAnimationName: Running
-  attackAnimationName: Zombie Attack
-  dieAnimationName: Zombie Death
+  runAnimationName: RunP
+  attackAnimationName: Attack
+  dieAnimationName: Dead
+  winAnimationName: Victory

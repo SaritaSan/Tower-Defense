@@ -1201,6 +1201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7de1ec489d866d749b6d4bccd203e072, type: 3}
       insertIndex: -1
       addedObject: {fileID: 883232924238131443}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7de1ec489d866d749b6d4bccd203e072, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8715275719941068484}
   m_SourcePrefab: {fileID: 100100000, guid: 7de1ec489d866d749b6d4bccd203e072, type: 3}
 --- !u!4 &8378635494044256415 stripped
 Transform:
@@ -1282,4 +1285,37 @@ MonoBehaviour:
       m_Calls: []
   _onDie:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3880801836932146855}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &8715275719941068484
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155031048177619493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2, z: 1.3}
+  m_Center: {x: 0, y: 1, z: 0}
