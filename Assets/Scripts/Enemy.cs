@@ -72,6 +72,7 @@ public class Enemy : MonoBehaviour
     
     private IEnumerator DieCoroutine()
     {
+        SoundManager.instance.Play(_enemyData.dieSoundName);
         _animator.Play(_enemyData.dieAnimationName);
         yield return new WaitForSeconds(2f);
         gameObject.SetActive(false);
