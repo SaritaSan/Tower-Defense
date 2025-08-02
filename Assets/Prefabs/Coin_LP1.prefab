@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7b55f6c26931fa348b8c85d1a5fc8f71, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b55f6c26931fa348b8c85d1a5fc8f71, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b55f6c26931fa348b8c85d1a5fc8f71, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b55f6c26931fa348b8c85d1a5fc8f71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 167286ca1859d07459841f0d3e9131c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 3000
+  _rotationspeed: {x: 0, y: 40, z: 0}
 --- !u!114 &6933303425360585619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _appearAnimationName: CoinAppear
-  _disappearAnimationName: CoinDisapear
+  _disappearAnimationName: CoinDisappear
   _animator: {fileID: 282761494105162931}
   _timeToDisappear: 2
   _onCoinCollected:
