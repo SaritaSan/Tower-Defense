@@ -3,7 +3,17 @@ guid: ca26919cc0d9ce34292a618c69fb81bc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mutant_diffuse
+    second: {fileID: 2800000, guid: 3daaec3afd2adb34c9df4f435db50f1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mutant_normal
+    second: {fileID: 2800000, guid: 5bddac0d8d7fe6345af65c0667720c7d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

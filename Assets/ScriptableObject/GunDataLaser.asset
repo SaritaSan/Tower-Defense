@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GunDataLaser
   m_EditorClassIdentifier: 
   fireRate: 3
-  damage: 10
+  damage: 25
   fireSoundName: Shot

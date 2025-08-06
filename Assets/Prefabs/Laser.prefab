@@ -1,5 +1,51 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2374297854403347737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3176792436610557647}
+  - component: {fileID: 8971500928323840459}
+  m_Layer: 0
+  m_Name: InstantiateGunParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3176792436610557647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2374297854403347737}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2836.667, y: 906.66656, z: -4426.667}
+  m_LocalScale: {x: 33333.336, y: 33333.336, z: 33333.336}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6312941814743511988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8971500928323840459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2374297854403347737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f364ffb17ea5217418af10b59716124c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 8194992990867289339, guid: 99bc28c0d45f51c4fbac01080b73edc7, type: 3}
+  _parent: {fileID: 0}
 --- !u!1001 &5770987299361936479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70,49 +116,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b3b33692edd4a864a90caae20e8301a6, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b3b33692edd4a864a90caae20e8301a6, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 295313211368118907}
+      addedObject: {fileID: 3176792436610557647}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3b33692edd4a864a90caae20e8301a6, type: 3}
 --- !u!4 &6312941814743511988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b3b33692edd4a864a90caae20e8301a6, type: 3}
   m_PrefabInstance: {fileID: 5770987299361936479}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6690030788447004942 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3b33692edd4a864a90caae20e8301a6, type: 3}
-  m_PrefabInstance: {fileID: 5770987299361936479}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &295313211368118907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6690030788447004942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc83e3f6f36d7234da5bf97a17e540e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _turret: {fileID: 6312941814743511988}
-  _onFire:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1152812957651926795, guid: 038af255f0991be4d8c37f3ac3969a31, type: 3}
-        m_TargetAssemblyTypeName: InstantiatePoolObject, Assembly-CSharp
-        m_MethodName: InstantiateObject
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _gunData: {fileID: 11400000, guid: ee0ad79b134fe66468f53430497d4aea, type: 2}
-  _targetTag: Enemy
