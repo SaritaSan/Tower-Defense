@@ -3659,6 +3659,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1929846978}
   m_SourcePrefab: {fileID: 100100000, guid: 370c20f72c37f6a45af176815c640cf2, type: 3}
+--- !u!23 &1716485196 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 370c20f72c37f6a45af176815c640cf2, type: 3}
+  m_PrefabInstance: {fileID: 1716485195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807424201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,6 +4008,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Lost
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1716485196}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 97186d3b42cd0cf4fb1513409a8d3fe7, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Lost
